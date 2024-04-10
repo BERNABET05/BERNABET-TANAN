@@ -1,0 +1,137 @@
+body {
+  background-image: url(./assets/img/BACKGROUND\ HOME.jpg);
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+.logo {
+  margin-top: 11px;
+  width: 40px;
+}
+
+.LOGO {
+  margin-right: 10px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.NAVBAR .container-fluid {
+  z-index: 1000;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  margin-left: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  width: 100px;
+  margin: 10px;
+}
+
+.btn-outline-success {
+  font-family: monospace;
+  border-radius: 20px;
+  border-width: 2px;
+  border-color: white;
+  color: white;
+}
+.btn-outline-success:hover {
+  background-color: black;
+  border-color: black;
+  color: white;
+}
+
+.btn-outline-success:active,
+.btn-outline-success:focus,
+.btn-outline-success.focus {
+  background-color: black !important;
+  border-color: black !important;
+  color: white !important;
+}
+
+.HOME {
+  display: flex;
+  max-width: 100%;
+  height: 20cm;
+  margin: 0 auto;
+}
+
+.COLUMNS-1 {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5cm;
+}
+.card {
+  border-radius: 50px;
+  background-color: rgba(128, 128, 128, 0.384);
+  max-width: 50cm;
+  max-height: 20cm;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+}
+
+.card-body {
+  font-family: monospace;
+}
+.HALO {
+  font-size: 50px;
+  text-align: center;
+  color: white;
+}
+.card-text {
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+
+.card-profile {
+  margin-bottom: 150px;
+  margin-top: 20px;
+  justify-content: center;
+  color: white;
+  display: flex;
+  font-size: 30px;
+  font-family: monospace;
+}
+
+.IMAGE-PROFILE {
+  border-style: solid;
+  border-color: white;
+  border-width: 10px;
+  margin-top: 35px;
+  border-radius: 100%;
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.list-group-1 {
+  max-width: 50cm;
+  max-height: 20cm;
+}
+
+.list-group-2 {
+  max-width: 50cm;
+  max-height: 20cm;
+  margin: 0 auto;
+}
+
+.CONTACT-BODY {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  text-align: center;
+  padding: 20px;
+}
